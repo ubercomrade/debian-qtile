@@ -16,6 +16,10 @@ Type=Application
 Keywords=wm;tiling
 EOF
 
+if [[ ! -e /usr/share/xsessions ]];
+then 
+    sudo mkdir /usr/share/xsessions
+fi
 sudo cp ./temp /usr/share/xsessions/qtile.desktop
 sudo echo "Exec=/home/$USER/.local/bin/qtile start" | sudo tee -a /usr/share/xsessions/qtile.desktop
 
