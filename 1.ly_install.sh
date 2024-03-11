@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo apt install git
 git clone --recurse-submodules https://github.com/fairyglade/ly
 cd ly
 sudo make
