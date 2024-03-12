@@ -8,7 +8,7 @@ sudo apt install -y python3-pip python3-xcffib python3-cairocffi
 pipx install qtile
 
 #Extra tools
-sudo apt install -y rofi dunst picom
+sudo apt install -y rofi dunst picom nvim
 
 # Xsessions Desktop file
 cat > ./temp << "EOF"
